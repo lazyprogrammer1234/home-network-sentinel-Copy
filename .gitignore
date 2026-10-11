@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Local device whitelist (contains real private MAC addresses)
+whitelist.json
+!whitelist.example.json
+
+# Local state and runtime logs
+*.log
+state.json
+local_state.json
+
+# Testing and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system and editor artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.idea/
+.vscode/
+*.swp
+*.swo

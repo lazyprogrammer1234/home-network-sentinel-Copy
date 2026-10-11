@@ -1,0 +1,9 @@
+{
+  "_comment": "Safe example whitelist using fictional MAC addresses. Copy to whitelist.json and replace with your real devices.",
+  "devices": [
+    {"mac": "aa:bb:cc:11:22:33", "name": "Example Router"},
+    {"mac": "aa:bb:cc:44:55:66", "name": "Example Laptop"},
+    {"mac": "aa:bb:cc:77:88:99", "name": "Example Phone"},
+    {"mac": "aa:bb:cc:aa:bb:cc", "name": "Example Smart TV"}
+  ]
+}
